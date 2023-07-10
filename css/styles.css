@@ -24,9 +24,15 @@ h6 {
     padding-left: 0;
 }
 
+.img {
+    display: block;
+    max-width: 100%;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
+    height: auto;
 }
 
 
@@ -58,8 +64,6 @@ h6 {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-
-
 }
 
 .veg-item {
@@ -70,8 +74,8 @@ h6 {
 }
 
 .veg-img-icons {
-    max-width: 354px;
-    padding: 0px 19px 96px 16px;
+    max-width: 321px;
+
     margin: 0 auto;
 
 }
@@ -107,8 +111,8 @@ h6 {
     font-weight: 700;
     line-height: 38px;
     letter-spacing: -1.28px;
+    margin: 64px 0 8px 24px;
 
-    padding: 64px 0 8px 24px;
 }
 
 .veg-text {
@@ -116,20 +120,25 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.36px;
-    padding: 0 0 0 24px;
+    margin: 0 0 16px 24px;
 }
 
-.veg-img {}
+.veg-img {
+    display: block;
+    margin: 0 auto;
+}
 
 .veg-icons {
+    display: block;
     fill: #141414;
     /* opacity: 0.10000000149011612; */
     filter: blur(13.591408729553223px);
     border-radius: 100%;
-    z-index: -1;
+    position: relative;
+    top: 0px;
+    left: 62px;
 
 }
-
 
 
 .veg-text-kg {
@@ -137,6 +146,7 @@ h6 {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.72px;
+    margin: 24px 0 24px 24px;
 }
 
 .order-btn {}
