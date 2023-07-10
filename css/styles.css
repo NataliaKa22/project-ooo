@@ -100,6 +100,10 @@ h6 {
     line-height: 1.3;
     letter-spacing: -0.04em;
     margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, .1);
+    font-style: normal;
+
 }
 
 
@@ -113,7 +117,7 @@ h6 {
 }
 
 .veg-text {
-    font-size: 18px; 
+    font-size: 18px;
     line-height: 1.3;
     letter-spacing: -0.02em;
     margin: 0 0 16px 24px;
