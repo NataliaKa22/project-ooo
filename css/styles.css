@@ -159,9 +159,9 @@ h6 {
     letter-spacing: -0.04em;
 }
 
-/* .vegetables-list:last-child {
+.vegetables-list:last-child {
     display: none;
-} */
+}
 
 .order-btn {}
 
